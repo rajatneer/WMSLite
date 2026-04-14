@@ -1,0 +1,9 @@
+[
+  {
+    "Id": "inv_demo_1",
+    "TenantId": "tenant_demo",
+    "ItemId": "item_demo_1",
+    "LocationCode": "A-01-01",
+    "Quantity": 100
+  }
+]
