@@ -102,3 +102,21 @@ cd WMSLite.Api
 ```
 
 (If `dotnet` SDK is unavailable in your environment, install .NET 8 SDK first.)
+
+## Docker run (no local .NET install)
+
+From repository root:
+
+```bash
+docker compose up --build
+```
+
+Then open:
+- `http://localhost:8080/`
+- `http://localhost:8080/swagger`
+
+Stop:
+
+```bash
+docker compose down
+```

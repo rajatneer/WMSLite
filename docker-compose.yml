@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  wmslite-api:
+    build:
+      context: ./WMSLite.Api
+      dockerfile: Dockerfile
+    container_name: wmslite-api
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Jwt__Key=THIS_IS_A_DEMO_KEY_CHANGE_IN_PRODUCTION_123456789
+      - Jwt__Issuer=WMSLite
+      - Jwt__Audience=WMSLiteClients
+    volumes:
+      - ./WMSLite.Api/Data:/app/Data
+    restart: unless-stopped
