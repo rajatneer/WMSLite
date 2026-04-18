@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "user_demo_admin",
+    "TenantId": "tenant_demo",
+    "Email": "admin@demo.com",
+    "PasswordHash": "8C6976E5B5410415BDE908BD4DEE15DFB16FD15B2A9D6C8A249DAA2C6A3A6A1D",
+    "Role": "Admin",
+    "CreatedAtUtc": "2026-04-01T00:00:00Z"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "sub_demo_1",
+    "TenantId": "tenant_demo",
+    "TrialEndsAtUtc": "2026-04-17T00:00:00Z",
+    "IsPaidActive": false,
+    "SeatsPurchased": 3,
+    "PaidEndsAtUtc": null
+  }
+]

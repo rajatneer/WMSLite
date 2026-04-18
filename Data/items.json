@@ -1,0 +1,8 @@
+[
+  {
+    "Id": "item_demo_1",
+    "TenantId": "tenant_demo",
+    "Sku": "SKU-100",
+    "Name": "Demo Item"
+  }
+]
